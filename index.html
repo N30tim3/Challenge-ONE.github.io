@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Challenge ONE + Alura Latam</title>
+</head>
+<body>
+
+<div class="hero">
+    <nav>
+        <h2 class="logo">Challenge ONE + Alura Latam</h2>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=+525510961981">Contacto</a></li>
+        </ul>
+        <button type="button">Suscribirse</button>
+    </nav>
+</div>
+
+
+    <section class="home">
+        <!--Ingresar Datos a Codificar-->
+    <div class="inputBox">
+        <input type="text" name="codificartxt" id="codificartxt"  required=required>
+        <span>Ingresa Texto a Codificar</span>
+        
+    </div>
+    <a href="#" class="btn" id="btnCodificar" style="--clr:#1e9bff" onclick="codificar()"><span>Codificar</span><i></i></i></a>
+    <!--Ingresar Datos a Decodificar-->
+    <div class="inputBox">
+        <input type="text" name="decodificartxt" id="decodificartxt"  required=required>
+        <span>Ingresa Texto a DeCodificar</span>
+    </div>
+    <a href="#" class="btn" id="btnDeCodificar" style="--clr:#ff1867" onclick="decodificar()"><span>DeCodificar</span><i></i></i></a>
+    <!--Muestra el Resultado de la Codificacion o Decodificacion-->
+    <div class="inputBox">
+        <input type="text" name="resultado" id="resultado"  required=required>
+        <span>Resultado/Copiar</span>
+    </div>
+    
+    <a href="#" class="btn" id="btnCopiar" style="--clr:#6eff3e" onclick="copiar()"><span>Copiar</span><i></i></i></a>
+    <a href="#" class="btn" id="btnReset" style="--clr:#ea15bc" onclick="resetear()"><span>Limpiar</span><i></i></i></a>
+</section>
+
+<footer>
+    <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social_icon">
+        <li><a href="https://www.facebook.com/timecelebi/"><ion-icon name="logo-facebook"></ion-icon></a> </li>
+        <li><a href="https://www.twitter.com/Yumenet"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        <li><a href="https://www.linkedin.com/in/n30tim3/"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+        <li><a href="https://www.instagram.com/timecelebi/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=+525510961981"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+        
+    </ul>
+    <ul class="menu">
+        <li><a href="#">Jose Alberto Hernandez Guzman</a></li>
+        <li><a href="#">CDMX</a></li>
+        <li><a href="mailto:contactoitph@gmail.com">Contacto</a></li>
+    </ul>
+    <p>2022 Todos Los Derechos Reservados - N30tim3</p>
+</footer>
+<!--Scripts Para Llamado de Iconos-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!--Script para Codificar/Decodificar--><script src="js/main.js"></script>
+</body>
+</html>
